@@ -296,7 +296,7 @@ void hipotese( void )
         {
             if( campominado[x-1][y-1] == 0 )
             {
-                campominado_vazio[x-1][y] = campominado[x-1][y];
+                campominado_vazio[x-1][y-1] = campominado[x-1][y];
             }
             if( campominado[x-1][y] == 0 )
             {
